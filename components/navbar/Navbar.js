@@ -134,14 +134,7 @@ export default function Navbar() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link href="/">
-                  <Image
-                    src={getLink("/logo192.png")}
-                    alt="EddieHub logo"
-                    width={32}
-                    height={32}
-                    priority
-                    onClick={() => setIsOpen(false)}
-                  />
+                  
                 </Link>
               </div>
               <div className="hidden md:block">
